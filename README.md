@@ -1,5 +1,11 @@
 # nextcloud-vite-proxy
 
+## TODO
+
+- [ ] TLS, self-signed certificate?
+- [ ] Let users configure their Nextcloud upstream (via cli?)
+- [ ] Move whole vite server creation logic here?
+
 ## PoC: Use this in a Nextcloud app
 
 1. Replace `http://localhost:8080` with your local Nextcloud upstream.
