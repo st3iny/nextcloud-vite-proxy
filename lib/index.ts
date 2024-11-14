@@ -5,8 +5,6 @@ import httpProxy from 'http-proxy'
 
 export async function guessWebRoot(appDir: string): Promise<string|undefined> {
   const configPath = path.join(appDir, '../../config/config.php')
-  console.log('appDir', appDir)
-  console.log('configPath', configPath)
   const config = await readFile(configPath, 'utf8')
   const matches = config.match(/['"]overwritewebroot['"]\s*=>\s*['"]([^'"]*)['"]/)
   return matches?.[1] ?? undefined
