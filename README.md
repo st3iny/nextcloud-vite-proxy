@@ -2,9 +2,8 @@
 
 ## TODO
 
-- [ ] TLS, self-signed certificate?
-- [ ] Let users configure their Nextcloud upstream (via cli?)
-- [ ] Move whole vite server creation logic here?
+- [ ] Handle TLS by creating a self-signed certificate
+- [ ] Let users configure their nextcloud upstream via a JSON config file
 
 ## PoC: Use this in a Nextcloud app
 
